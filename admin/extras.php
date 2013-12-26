@@ -48,7 +48,7 @@
   <head>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <title>SimpleRisk: Enterprise Risk Management Simplified</title>
+    <title>FixRisk: Enterprise Risk Management Simplified</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="../css/bootstrap.css">
@@ -57,7 +57,7 @@
   
   <body>
     <?php if ($alert) echo "<script>alert(\"" . $alert_message . "\");</script>" ?>
-    <title>SimpleRisk: Enterprise Risk Management Simplified</title>
+    <title>FixRisk: Enterprise Risk Management Simplified</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="../css/bootstrap.css">
@@ -67,7 +67,7 @@
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="http://www.simplerisk.org/">SimpleRisk</a>
+            <a class="brand" href="http://www.fixrnix.in/">FixRisk</a>
           <div class="navbar-content">
             <ul class="nav">
               <li>
@@ -141,7 +141,7 @@ if (isset($_SESSION["access"]) && $_SESSION["access"] == "granted")
             <div class="span12">
               <div class="hero-unit">
                 <h4>Custom Extras</h4>
-                <p>It would be awesome if everything were free, right?  Hopefully the base SimpleRisk platform is able to serve all of your risk management needs.  But, if you find yourself still wanting more functionality, I've developed a series of &quot;Extras&quot; that will do just that for just a few hundred bucks each (perpetual use license).
+                <p>It would be awesome if everything were free, right?  Hopefully the base FixRisk platform is able to serve all of your risk management needs.  But, if you find yourself still wanting more functionality, I've developed a series of &quot;Extras&quot; that will do just that for just a few hundred bucks each (perpetual use license).
                 </p>
                 <ul>
                   <li><b>Custom Authentication Extra:</b> Currently provides support for Active Directory Authentication, but will have other custom authentication types in the future.</li>
@@ -149,7 +149,7 @@ if (isset($_SESSION["access"]) && $_SESSION["access"] == "granted")
                   <li><b>Notification Extra:</b> Email notifications when risks are updated or due for action.</li>
                   <li><b>Encrypted Database Extra:</b> Encryption of sensitive text fields in the database.</li>
                 </ul>
-                <p>If you are interested in adding these or other custom functionality to your SimpleRisk installation, please send an e-mail to <a href="mailto:extras@simplerisk.org?Subject=Interest%20in%20SimpleRisk%20Extras" target="_top">extras@simplerisk.org</a>.</p>
+                <p>If you are interested in adding these or other custom functionality to your FixRisk installation, please send an e-mail to <a href="mailto:shan@fixrnix.in?Subject=Interest%20in%20SimpleRisk%20Extras" target="_top">shan@fixrnix.in</a>.</p>
               </div>
             </div>
           </div>

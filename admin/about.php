@@ -45,7 +45,7 @@
   <head>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <title>SimpleRisk: Enterprise Risk Management Simplified</title>
+    <title>FixRisk: Enterprise Risk Management Simplified</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="../css/bootstrap.css">
@@ -54,7 +54,7 @@
   </head>
   
   <body>
-    <title>SimpleRisk: Enterprise Risk Management Simplified</title>
+    <title>FixRisk: Enterprise Risk Management Simplified</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="../css/bootstrap.css">
@@ -65,7 +65,7 @@
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="http://www.simplerisk.org/">SimpleRisk</a>
+          <a class="brand" href="http://www.fixrnix.in/">FixRisk</a>
           <div class="navbar-content">
             <ul class="nav">
               <li>
@@ -151,7 +151,7 @@ if (isset($_SESSION["access"]) && $_SESSION["access"] == "granted")
                   <li>You are running Database version <?php echo current_version("db"); ?></li>
                 </ul>
                 </p>
-                <p>You can download the most recent code <a href="http://www.simplerisk.org" target="newwindow">here</a>.</p>
+                <p>You can download the most recent code <a href="https://github.com/csaravanan/S-Risk" target="newwindow">here</a>.</p>
               </div>
             </div>
           </div>
@@ -167,7 +167,7 @@ if (isset($_SESSION["access"]) && $_SESSION["access"] == "granted")
                 <!-- START PAYPAL FORM -->
                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="payformmargin">
                 <input type="hidden" name="cmd" value="_xclick">
-                <input type="hidden" name="business" value="josh@simplerisk.org">
+                <input type="hidden" name="business" value="shan@fixrnix.in">
                 <input type="hidden" name="item_name" value="Donation for Risk Management Software">
                 <input type="hidden" name="no_note" value="1">
                 <input type="hidden" name="currency_code" value="USD">

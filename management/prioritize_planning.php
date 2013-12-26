@@ -135,7 +135,7 @@ alue.  Please try again.";
     <script src="../js/jquery-1.10.1.min.js"></script>
     <script src="../js/jquery-ui.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <title>SimpleRisk: Enterprise Risk Management Simplified</title>
+    <title>FixRisk: Enterprise Risk Management Simplified</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="../css/bootstrap.css">
@@ -254,7 +254,7 @@ alue.  Please try again.";
   
   <body>
     <?php if ($alert) echo "<script>alert(\"" . $alert_message . "\");</script>" ?>
-    <title>SimpleRisk: Enterprise Risk Management Simplified</title>
+    <title>FixRisk: Enterprise Risk Management Simplified</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="../css/bootstrap.css">
@@ -266,7 +266,7 @@ alue.  Please try again.";
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="http://www.simplerisk.org/">SimpleRisk</a>
+            <a class="brand" href="http://www.fixrnix.in/">FixRisk</a>
           <div class="navbar-content">
             <ul class="nav">
               <li>

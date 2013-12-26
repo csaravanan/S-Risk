@@ -90,7 +90,7 @@
     <td align="left" valign="top"  bgcolor="#6B7782" >
       <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
       	<tr>
-	  <td align="center" background="../images/cal-bg-head.jpg" height="35"><span class="heading">SimpleRisk CVSS V2.0 Calculator</span></td>
+	  <td align="center" background="../images/cal-bg-head.jpg" height="35"><span class="heading">FixRisk CVSS V2.0 Calculator</span></td>
     </tr>
     
     

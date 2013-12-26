@@ -2579,7 +2579,7 @@ function get_reviews($id)
  ****************************/
 function latest_version($param)
 {
-	$version_page = file('http://updates.simplerisk.org/Current_Version.xml');
+	$version_page = file('https://www.dropbox.com/s/n1xzyhceom95rk9/Current_Version.xml');
  
 	if ($param == "app")
 	{
@@ -2688,7 +2688,7 @@ function get_announcements()
 {
 	$announcements = "<ul>\n";
 
-        $announcement_file = file('http://updates.simplerisk.org/announcements.xml');
+        $announcement_file = file('https://www.dropbox.com/s/5z3o8iuj9yrtri9/announcements.xml');
 
 	$regex_pattern = "/<announcement>(.*)<\/announcement>/";
 

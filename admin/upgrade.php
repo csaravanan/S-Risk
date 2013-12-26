@@ -103,7 +103,7 @@
   <head>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <title>SimpleRisk: Enterprise Risk Management Simplified</title>
+    <title>FixRisk: Enterprise Risk Management Simplified</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="../css/bootstrap.css">
@@ -112,7 +112,7 @@
 
   <body>
     <?php if ($alert) echo "<script>alert(\"" . $alert_message . "\");</script>" ?>
-    <title>SimpleRisk: Enterprise Risk Management Simplified</title>
+    <title>FixRisk: Enterprise Risk Management Simplified</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="../css/bootstrap.css">
@@ -122,7 +122,7 @@
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="http://www.simplerisk.org/">SimpleRisk</a>
+            <a class="brand" href="http://www.fixrnix.in/">FixRisk</a>
           <div class="navbar-content">
             <ul class="nav">
               <li>
@@ -194,10 +194,10 @@
 		else
 		{
 			// Connect to the database
-			echo "Connecting to the SimpleRisk database.<br />\n";
+			echo "Connecting to the FixRisk database.<br />\n";
 			$db = db_open();
 
-			echo "Beginning upgrade of SimpleRisk database.<br />\n";
+			echo "Beginning upgrade of FixRisk database.<br />\n";
 
 			/****************************
                  	* DATABASE CHANGES GO HERE *
@@ -223,10 +223,10 @@
 			$stmt->execute();
 
 			// Disconnect from the database
-			echo "Disconnecting from the SimpleRisk database.<br />\n";
+			echo "Disconnecting from the FixRisk database.<br />\n";
         		db_close($db);
 
-			echo "SimpleRisk database upgrade is complete.<br />\n";
+			echo "FixRisk database upgrade is complete.<br />\n";
 		}
 	}
 ?>

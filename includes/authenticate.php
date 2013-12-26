@@ -45,7 +45,7 @@ function get_user_type($user)
 
 	$type = $array[0]['type'];
 
-	// If the type isn't simplerisk or ldap
+	// If the type isn't fixrisk or ldap
 	if ($type != "simplerisk" && $type != "ldap")
 	{
 		// The user does not exist
@@ -76,10 +76,10 @@ function is_valid_user($user, $pass)
 		// Return that the user is not valid
 		return false;
 	}
-	// If the type is simplerisk
+	// If the type is Fixrisk
 	else if ($type == "simplerisk")
 	{
-		// Check for a valid SimpleRisk user
+		// Check for a valid FixRisk user
 		$valid_simplerisk = is_valid_simplerisk_user($user, $pass);
 	}
 	// If the type is ldap
@@ -96,7 +96,7 @@ function is_valid_user($user, $pass)
 		}
 	}
 
-	// If either the AD or SimpleRisk user are valid
+	// If either the AD or FixRisk user are valid
 	if ($valid_ad || $valid_simplerisk)
 	{
 		// Open the database connection
@@ -129,7 +129,7 @@ function is_valid_user($user, $pass)
 }
 
 /**************************************
- * FUNCTION: IS VALID SIMPLERISK USER *
+ * FUNCTION: IS VALID FixRISK USER *
  **************************************/
 function is_valid_simplerisk_user($user, $pass)
 {
@@ -162,7 +162,7 @@ function is_valid_simplerisk_user($user, $pass)
 }
 
 /********************************
- * FUNCTION: IS SIMPLERISK USER *
+ * FUNCTION: IS FIXRISK USER *
  ********************************/
 function is_simplerisk_user($username)
 {
@@ -271,7 +271,7 @@ function send_reset_email($username, $name, $email, $token)
 {
         $to = $email;
         $subject = "SimpleRisk Password Reset";
-        $body = $name.",\n\nA request was submitted to reset your SimpleRisk password.  Your username is \"".$username."\" and your password reset token is \"".$token."\".  You may now use the \"Forgot your password\" link on the SimpleRisk log in page to reset your password.";
+        $body = $name.",\n\nA request was submitted to reset your FixRisk password.  Your username is \"".$username."\" and your password reset token is \"".$token."\".  You may now use the \"Forgot your password\" link on the FixRisk log in page to reset your password.";
         mail($to, $subject, $body);
 }
 
