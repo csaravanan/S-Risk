@@ -180,10 +180,7 @@ if (isset($_SESSION["access"]) && $_SESSION["access"] == "granted")
             </li>
             <li>
               <a href="announcements.php">Announcements</a>
-            </li>
-            <li>
-              <a href="about.php">About</a>        
-            </li>
+            </li>            
           </ul>
         </div>
         <div class="span9">
